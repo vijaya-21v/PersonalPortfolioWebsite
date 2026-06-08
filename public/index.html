@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Karthik Portfolio</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <div class="logo">Portfolio<span>.</span></div>
+
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section id="home" class="hero">
+    <div class="hero-container">
+
+        <div class="hero-image-wrapper">
+            <img src="profile.jpg" alt="Profile" class="profile-img">
+        </div>
+
+        <div class="hero-text-wrapper">
+            <h5>WELCOME TO MY WORLD</h5>
+
+            <h1>
+                Hi, I'm
+                <span class="highlight">
+                    Kola Karthik
+                </span>
+            </h1>
+
+            <h2>
+                Java Full Stack Learner
+            </h2>
+
+            <p>
+                Passionate Java Full Stack learner with strong interest
+                in software development and web technologies.
+                I enjoy building clean and user-friendly applications.
+            </p>
+
+            <div class="hero-buttons">
+
+                <a href="#projects"
+                class="btn btn-primary">
+                    View My Work
+                </a>
+
+                <a href="#about"
+                class="btn btn-secondary">
+                    About Me
+                </a>
+
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<section id="about" class="about">
+
+    <div class="section-title">
+        <h2>About Me</h2>
+        <div class="underline"></div>
+    </div>
+
+    <div class="about-content">
+        <p>
+            I am a passionate Java Full Stack learner
+            focused on creating efficient and user-friendly
+            applications. I enjoy solving real-world problems
+            using programming and continuously improving
+            my technical skills.
+        </p>
+    </div>
+
+</section>
+
+<section id="projects" class="projects">
+
+    <div class="section-title">
+        <h2>My Projects</h2>
+        <div class="underline"></div>
+    </div>
+
+    <div class="project-grid">
+
+        <div class="project-card">
+            <h3>Student Grade Tracker</h3>
+
+            <p>
+                A Java-based application used to
+                manage and track student grades.
+
+                <br><br>
+
+                <strong>Technologies:</strong>
+                Java, OOP, File Handling
+            </p>
+        </div>
+
+        <div class="project-card">
+            <h3>Hotel Reservation System</h3>
+
+            <p>
+                A console-based hotel booking
+                system developed using Java.
+
+                <br><br>
+
+                <strong>Technologies:</strong>
+                Java, Collections, File Handling
+            </p>
+        </div>
+
+    </div>
+
+</section>
+
+<section id="skills" class="skills">
+
+    <div class="section-title">
+        <h2>My Skills</h2>
+        <div class="underline"></div>
+    </div>
+
+    <div class="skills-grid">
+        <div class="skill-card">Java</div>
+        <div class="skill-card">HTML</div>
+        <div class="skill-card">CSS</div>
+        <div class="skill-card">JavaScript</div>
+        <div class="skill-card">MySQL</div>
+        <div class="skill-card">Node.js</div>
+        <div class="skill-card">Express.js</div>
+        <div class="skill-card">GitHub</div>
+    </div>
+
+</section>
+
+<section id="contact" class="contact">
+
+    <div class="section-title">
+        <h2>Get In Touch</h2>
+        <div class="underline"></div>
+    </div>
+
+    <div class="contact-info">
+
+    <div class="contact-item">
+        <strong>Email:</strong>
+
+        <a href="mailto:kolakarthiknaidu143@gmail.com">
+            kolakarthiknaidu143@gmail.com
+        </a>
+    </div>
+
+    <div class="contact-item">
+        <strong>LinkedIn:</strong>
+
+        <a href="https://www.linkedin.com/in/karthik-kola-/"
+        target="_blank">
+
+            linkedin.com
+        </a>
+    </div>
+
+    <div class="contact-item">
+        <strong>GitHub:</strong>
+
+        <a href="https://github.com/kolakarthiknaidu143"
+        target="_blank">
+
+            github.com
+        </a>
+    </div>
+
+</div>
+
+    <br><br>
+
+    <form id="contactForm">
+
+        <input
+        type="text"
+        id="name"
+        placeholder="Enter Name"
+        required>
+
+        <input
+        type="email"
+        id="email"
+        placeholder="Enter Email"
+        required>
+
+        <textarea
+        id="message"
+        placeholder="Enter Message"
+        required></textarea>
+
+        <button type="submit">
+            Send Message
+        </button>
+
+    </form>
+
+    <p id="response"></p>
+
+</section>
+
+<footer>
+    <p>
+        © 2026 Kola Karthik.
+        Built with passion and code.
+    </p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
